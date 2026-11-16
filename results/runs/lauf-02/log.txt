@@ -1,0 +1,23 @@
+Seed 0: Training abgeschlossen
+Seed 1: Training abgeschlossen
+Seed 2: Training abgeschlossen
+
+=== Validierung ===
+                        Gesamtrendite  Rendite p.a.  Volatilität p.a.  Sharpe Ratio  Sortino Ratio  Max Drawdown  Positionswechsel  Investitionsgrad
+Buy-and-Hold                    1.656         1.656             0.443         2.427          4.096        -0.200             1.000             1.000
+A2C Seed 0                      0.994         0.994             0.282         2.590          3.033        -0.171            24.000             0.384
+A2C Seed 1                      0.435         0.435             0.290         1.390          1.627        -0.187            27.000             0.468
+A2C Seed 2                      0.718         0.718             0.345         1.740          2.218        -0.204            32.000             0.562
+A2C Mittelwert                  0.716         0.716             0.305         1.907          2.293        -0.187            27.667             0.471
+A2C Standardabweichung          0.279         0.279             0.034         0.617          0.706         0.016             4.041             0.089
+
+=== Test ===
+                        Gesamtrendite  Rendite p.a.  Volatilität p.a.  Sharpe Ratio  Sortino Ratio  Max Drawdown  Positionswechsel  Investitionsgrad
+Buy-and-Hold                    0.982         0.408             0.477         0.954          1.493        -0.320             1.000             1.000
+A2C Seed 0                      0.482         0.217             0.296         0.811          0.935        -0.222           100.000             0.441
+A2C Seed 1                      0.510         0.229             0.296         0.842          0.838        -0.336            56.000             0.359
+A2C Seed 2                      0.541         0.241             0.329         0.820          0.901        -0.397            72.000             0.452
+A2C Mittelwert                  0.511         0.229             0.307         0.824          0.891        -0.318            76.000             0.417
+A2C Standardabweichung          0.029         0.012             0.019         0.016          0.049         0.089            22.271             0.051
+
+Ergebnisse in D:\_temp\difa-poc\results\runs\lauf-02

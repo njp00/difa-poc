@@ -1,0 +1,8 @@
+.venv/
+data/
+results/**/models/
+results/**/tensorboard/
+results/**/monitor/
+__pycache__/
+.pytest_cache/
+*.bak
